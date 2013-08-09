@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B45706717B11D1E00743871 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B45706617B11D1E00743871 /* Cocoa.framework */; };
+		0B45706917B11D1E00743871 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B45706817B11D1E00743871 /* ScreenSaver.framework */; };
+		0B45707317B11D1E00743871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B45707117B11D1E00743871 /* InfoPlist.strings */; };
+		0B45707717B11D1E00743871 /* SpySaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45707617B11D1E00743871 /* SpySaverView.m */; };
+		0B45707E17B11D9B00743871 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B45707D17B11D9B00743871 /* QTKit.framework */; };
+		0B45708017B11DCE00743871 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B45707F17B11DCE00743871 /* Configuration.xib */; };
+		0B45708317B11E0000743871 /* LTImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B45708117B11E0000743871 /* LTImagePicker.h */; };
+		0B45708417B11E0000743871 /* LTImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45708217B11E0000743871 /* LTImagePicker.m */; };
+		0B45708617B120B300743871 /* SpySaver.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B45706317B11D1E00743871 /* SpySaver.saver */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B45708517B1208600743871 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				0B45708617B120B300743871 /* SpySaver.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B45706317B11D1E00743871 /* SpySaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpySaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B45706617B11D1E00743871 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0B45706817B11D1E00743871 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		0B45706B17B11D1E00743871 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0B45706C17B11D1E00743871 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0B45706D17B11D1E00743871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B45707017B11D1E00743871 /* SpySaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpySaver-Info.plist"; sourceTree = "<group>"; };
+		0B45707217B11D1E00743871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B45707417B11D1E00743871 /* SpySaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpySaver-Prefix.pch"; sourceTree = "<group>"; };
+		0B45707517B11D1E00743871 /* SpySaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpySaverView.h; sourceTree = "<group>"; };
+		0B45707617B11D1E00743871 /* SpySaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpySaverView.m; sourceTree = "<group>"; };
+		0B45707D17B11D9B00743871 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		0B45707F17B11DCE00743871 /* Configuration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Configuration.xib; sourceTree = "<group>"; };
+		0B45708117B11E0000743871 /* LTImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTImagePicker.h; sourceTree = SOURCE_ROOT; };
+		0B45708217B11E0000743871 /* LTImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTImagePicker.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B45705E17B11D1E00743871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45707E17B11D9B00743871 /* QTKit.framework in Frameworks */,
+				0B45706717B11D1E00743871 /* Cocoa.framework in Frameworks */,
+				0B45706917B11D1E00743871 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B45705817B11D1E00743871 = {
+			isa = PBXGroup;
+			children = (
+				0B45706E17B11D1E00743871 /* SpySaver */,
+				0B45706517B11D1E00743871 /* Frameworks */,
+				0B45706417B11D1E00743871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B45706417B11D1E00743871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B45706317B11D1E00743871 /* SpySaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B45706517B11D1E00743871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B45707D17B11D9B00743871 /* QTKit.framework */,
+				0B45706617B11D1E00743871 /* Cocoa.framework */,
+				0B45706817B11D1E00743871 /* ScreenSaver.framework */,
+				0B45706A17B11D1E00743871 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B45706A17B11D1E00743871 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B45706B17B11D1E00743871 /* AppKit.framework */,
+				0B45706C17B11D1E00743871 /* CoreData.framework */,
+				0B45706D17B11D1E00743871 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0B45706E17B11D1E00743871 /* SpySaver */ = {
+			isa = PBXGroup;
+			children = (
+				0B45707F17B11DCE00743871 /* Configuration.xib */,
+				0B45707517B11D1E00743871 /* SpySaverView.h */,
+				0B45707617B11D1E00743871 /* SpySaverView.m */,
+				0B45708117B11E0000743871 /* LTImagePicker.h */,
+				0B45708217B11E0000743871 /* LTImagePicker.m */,
+				0B45706F17B11D1E00743871 /* Supporting Files */,
+			);
+			path = SpySaver;
+			sourceTree = "<group>";
+		};
+		0B45706F17B11D1E00743871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B45707017B11D1E00743871 /* SpySaver-Info.plist */,
+				0B45707117B11D1E00743871 /* InfoPlist.strings */,
+				0B45707417B11D1E00743871 /* SpySaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B45705F17B11D1E00743871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45708317B11E0000743871 /* LTImagePicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B45706217B11D1E00743871 /* SpySaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B45707A17B11D1E00743871 /* Build configuration list for PBXNativeTarget "SpySaver" */;
+			buildPhases = (
+				0B45705D17B11D1E00743871 /* Sources */,
+				0B45705E17B11D1E00743871 /* Frameworks */,
+				0B45705F17B11D1E00743871 /* Headers */,
+				0B45706017B11D1E00743871 /* Resources */,
+				0B45706117B11D1E00743871 /* Rez */,
+				0B45708517B1208600743871 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpySaver;
+			productName = SpySaver;
+			productReference = 0B45706317B11D1E00743871 /* SpySaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B45705917B11D1E00743871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Luke Tupper";
+			};
+			buildConfigurationList = 0B45705C17B11D1E00743871 /* Build configuration list for PBXProject "SpySaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B45705817B11D1E00743871;
+			productRefGroup = 0B45706417B11D1E00743871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B45706217B11D1E00743871 /* SpySaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B45706017B11D1E00743871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45707317B11D1E00743871 /* InfoPlist.strings in Resources */,
+				0B45708017B11DCE00743871 /* Configuration.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0B45706117B11D1E00743871 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B45705D17B11D1E00743871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45707717B11D1E00743871 /* SpySaverView.m in Sources */,
+				0B45708417B11E0000743871 /* LTImagePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B45707117B11D1E00743871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B45707217B11D1E00743871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B45707817B11D1E00743871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B45707917B11D1E00743871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B45707B17B11D1E00743871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpySaver/SpySaver-Prefix.pch";
+				INFOPLIST_FILE = "SpySaver/SpySaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		0B45707C17B11D1E00743871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpySaver/SpySaver-Prefix.pch";
+				INFOPLIST_FILE = "SpySaver/SpySaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B45705C17B11D1E00743871 /* Build configuration list for PBXProject "SpySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45707817B11D1E00743871 /* Debug */,
+				0B45707917B11D1E00743871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B45707A17B11D1E00743871 /* Build configuration list for PBXNativeTarget "SpySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45707B17B11D1E00743871 /* Debug */,
+				0B45707C17B11D1E00743871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B45705917B11D1E00743871 /* Project object */;
+}
